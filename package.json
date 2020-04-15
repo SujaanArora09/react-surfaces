@@ -8,6 +8,7 @@
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
+  "keywords": ["react", "surfaces", "gradient", "svg", "animation"],
   "engines": {
     "node": ">=10"
   },
@@ -49,5 +50,8 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "prop-types": "^15.7.2"
+  }
 }
