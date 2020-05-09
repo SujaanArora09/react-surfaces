@@ -7,7 +7,7 @@ import Varient4 from './Varient4'
 import Varient5 from './Varient5'
 import Varient6 from './Varient6'
 
-export default ({
+const DefaultComponent = ({
   varient,
   color1,
   color2,
@@ -84,7 +84,7 @@ export default ({
   }
 }
 
-ExampleComponent.propTypes = {
+DefaultComponent.propTypes = {
   varient: propTypes.number.isRequired,
   color1: propTypes.string.isRequired,
   color2: propTypes.string.isRequired,
@@ -93,7 +93,7 @@ ExampleComponent.propTypes = {
   transitionDuration: propTypes.string.isRequired,
 }
 
-ExampleComponent.defaultProps = {
+DefaultComponent.defaultProps = {
   varient: 1,
   color1: '#e52421',
   color2: '#2a4b9b',
@@ -101,3 +101,5 @@ ExampleComponent.defaultProps = {
   transitionTimingFunction: 'ease',
   transitionDuration: '2s',
 }
+
+export default DefaultComponent

@@ -7,6 +7,7 @@ export default memo(
     transitionDuration,
     transitionTimingFunction,
     transitionDelay,
+    title,
   }) => {
     const transition = {
       transitionDuration,
@@ -68,7 +69,7 @@ export default memo(
             <stop offset='1' style={transition} stopColor={color1} />
           </linearGradient>
         </defs>
-        <title>react-surfaces varient 2</title>
+        <title>{title || 'react-surfaces varient 2'}</title>
         <rect
           width='100'
           height='100'

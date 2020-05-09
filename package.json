@@ -1,6 +1,6 @@
 {
   "name": "react-surfaces",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A collection of animated background gradients",
   "author": "Sem Postma",
   "license": "MIT",
@@ -8,7 +8,13 @@
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
-  "keywords": ["react", "surfaces", "gradient", "svg", "animation"],
+  "keywords": [
+    "react",
+    "surfaces",
+    "gradient",
+    "svg",
+    "animation"
+  ],
   "engines": {
     "node": ">=10"
   },
