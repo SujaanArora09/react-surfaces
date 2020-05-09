@@ -7,7 +7,7 @@ import Varient4 from './Varient4'
 import Varient5 from './Varient5'
 import Varient6 from './Varient6'
 
-export const ExampleComponent = ({
+export default ({
   varient,
   color1,
   color2,
