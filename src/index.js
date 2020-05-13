@@ -1,11 +1,11 @@
 import React from 'react'
 import propTypes from 'prop-types'
-import variant1 from './variant1'
-import variant2 from './variant2'
-import variant3 from './variant3'
-import variant4 from './variant4'
-import variant5 from './variant5'
-import variant6 from './variant6'
+import Variant1 from './Variant1'
+import Variant2 from './Variant2'
+import Variant3 from './Variant3'
+import Variant4 from './Variant4'
+import Variant5 from './Variant5'
+import Variant6 from './Variant6'
 
 const DefaultComponent = ({
   variant,
@@ -18,7 +18,7 @@ const DefaultComponent = ({
   switch (+variant) {
     case 2: {
       return (
-        <variant2
+        <Variant2
           color1={color1}
           color2={color2}
           transitionDuration={transitionDuration}
@@ -29,7 +29,7 @@ const DefaultComponent = ({
     }
     case 3: {
       return (
-        <variant3
+        <Variant3
           color1={color1}
           color2={color2}
           transitionDuration={transitionDuration}
@@ -40,7 +40,7 @@ const DefaultComponent = ({
     }
     case 4: {
       return (
-        <variant4
+        <Variant4
           color1={color1}
           color2={color2}
           transitionDuration={transitionDuration}
@@ -51,7 +51,7 @@ const DefaultComponent = ({
     }
     case 5: {
       return (
-        <variant5
+        <Variant5
           color1={color1}
           color2={color2}
           transitionDuration={transitionDuration}
@@ -62,7 +62,7 @@ const DefaultComponent = ({
     }
     case 6: {
       return (
-        <variant6
+        <Variant6
           color1={color1}
           color2={color2}
           transitionDuration={transitionDuration}
@@ -73,7 +73,7 @@ const DefaultComponent = ({
     }
     default:
       return (
-        <variant1
+        <Variant1
           color1={color1}
           color2={color2}
           transitionDuration={transitionDuration}
