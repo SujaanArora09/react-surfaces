@@ -16,17 +16,17 @@ const App = () => {
 
   return <>
     <h2>1</h2>
-    <ExampleComponent varient={1} color1={color1} color2={color2} />
+    <ExampleComponent variant={1} color1={color1} color2={color2} />
     <h2>2</h2>
-    <ExampleComponent varient={2} color1={color1} color2={color2} />
+    <ExampleComponent variant={2} color1={color1} color2={color2} />
     <h2>3</h2>
-    <ExampleComponent varient={3} color1={color1} color2={color2} />
+    <ExampleComponent variant={3} color1={color1} color2={color2} />
     <h2>4</h2>
-    <ExampleComponent varient={4} color1={color1} color2={color2} />
+    <ExampleComponent variant={4} color1={color1} color2={color2} />
     <h2>5</h2>
-    <ExampleComponent varient={5} color1={color1} color2={color2} />
+    <ExampleComponent variant={5} color1={color1} color2={color2} />
     <h2>6</h2>
-    <ExampleComponent varient={6} color1={color1} color2={color2} />
+    <ExampleComponent variant={6} color1={color1} color2={color2} />
   </> 
 }
 

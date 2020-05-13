@@ -20,7 +20,7 @@ import Surface from 'react-surfaces'
 class Example extends Component {
   render() {
     return <Surface 
-      varient={2} // defaults to 1, possible values: (1-6)
+      variant={2} // defaults to 1, possible values: (1-6)
       color1={'#ff0000'} // defaults to #e52421
       color2={'#0000ff'} // defaults to #0000ff
       transitionDuration={'2s'} // optional

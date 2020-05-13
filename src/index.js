@@ -1,24 +1,24 @@
 import React from 'react'
 import propTypes from 'prop-types'
-import Varient1 from './Varient1'
-import Varient2 from './Varient2'
-import Varient3 from './Varient3'
-import Varient4 from './Varient4'
-import Varient5 from './Varient5'
-import Varient6 from './Varient6'
+import variant1 from './variant1'
+import variant2 from './variant2'
+import variant3 from './variant3'
+import variant4 from './variant4'
+import variant5 from './variant5'
+import variant6 from './variant6'
 
 const DefaultComponent = ({
-  varient,
+  variant,
   color1,
   color2,
   transitionDuration,
   transitionTimingFunction,
   transitionDelay,
 }) => {
-  switch (+varient) {
+  switch (+variant) {
     case 2: {
       return (
-        <Varient2
+        <variant2
           color1={color1}
           color2={color2}
           transitionDuration={transitionDuration}
@@ -29,7 +29,7 @@ const DefaultComponent = ({
     }
     case 3: {
       return (
-        <Varient3
+        <variant3
           color1={color1}
           color2={color2}
           transitionDuration={transitionDuration}
@@ -40,7 +40,7 @@ const DefaultComponent = ({
     }
     case 4: {
       return (
-        <Varient4
+        <variant4
           color1={color1}
           color2={color2}
           transitionDuration={transitionDuration}
@@ -51,7 +51,7 @@ const DefaultComponent = ({
     }
     case 5: {
       return (
-        <Varient5
+        <variant5
           color1={color1}
           color2={color2}
           transitionDuration={transitionDuration}
@@ -62,7 +62,7 @@ const DefaultComponent = ({
     }
     case 6: {
       return (
-        <Varient6
+        <variant6
           color1={color1}
           color2={color2}
           transitionDuration={transitionDuration}
@@ -73,7 +73,7 @@ const DefaultComponent = ({
     }
     default:
       return (
-        <Varient1
+        <variant1
           color1={color1}
           color2={color2}
           transitionDuration={transitionDuration}
@@ -85,7 +85,7 @@ const DefaultComponent = ({
 }
 
 DefaultComponent.propTypes = {
-  varient: propTypes.number.isRequired,
+  variant: propTypes.number.isRequired,
   color1: propTypes.string.isRequired,
   color2: propTypes.string.isRequired,
   transitionDelay: propTypes.string.isRequired,
@@ -94,7 +94,7 @@ DefaultComponent.propTypes = {
 }
 
 DefaultComponent.defaultProps = {
-  varient: 1,
+  variant: 1,
   color1: '#e52421',
   color2: '#2a4b9b',
   transitionDelay: '0s',

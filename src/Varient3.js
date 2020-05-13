@@ -29,7 +29,7 @@ export default memo(
       >
         <defs>
           <linearGradient
-            id='varient3-gradient1'
+            id='variant3-gradient1'
             x1='110.35'
             y1='74.83'
             x2='-62.99'
@@ -40,7 +40,7 @@ export default memo(
             <stop style={transition} offset='1' stopColor={color1} />
           </linearGradient>
           <linearGradient
-            id='varient3-gradient2'
+            id='variant3-gradient2'
             y1='12.1'
             x2='99.49'
             y2='12.1'
@@ -55,7 +55,7 @@ export default memo(
             />
           </linearGradient>
           <linearGradient
-            id='varient3-gradient3'
+            id='variant3-gradient3'
             y1='74.35'
             x2='100'
             y2='74.35'
@@ -70,19 +70,19 @@ export default memo(
             <stop style={transition} offset='1' stopColor={color1} />
           </linearGradient>
         </defs>
-        <title>{title || 'react-surfaces varient 3'}</title>
+        <title>{title || 'react-surfaces variant 3'}</title>
         <rect
           width='100'
           height='100'
-          style={{ fill: 'url(#varient3-gradient1)' }}
+          style={{ fill: 'url(#variant3-gradient1)' }}
         />
         <path
           d='M99.49,0C90.38,19.77,101.11,35.28,0,13.94V0Z'
-          style={{ fill: 'url(#varient3-gradient2)' }}
+          style={{ fill: 'url(#variant3-gradient2)' }}
         />
         <path
           d='M100,99.9v.1H0V72.58C8.32,69,39,44.15,50,49.44,64.2,56.26,63.42,90.9,100,99.9Z'
-          style={{ fill: 'url(#varient3-gradient3)' }}
+          style={{ fill: 'url(#variant3-gradient3)' }}
         />
       </svg>
     )

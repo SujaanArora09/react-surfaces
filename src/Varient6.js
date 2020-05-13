@@ -29,7 +29,7 @@ export default memo(
       >
         <defs>
           <linearGradient
-            id='varient6-gradient1'
+            id='variant6-gradient1'
             x1='110.35'
             y1='74.83'
             x2='-62.99'
@@ -40,11 +40,11 @@ export default memo(
             <stop offset='1' style={transition} stopColor={color1} />
           </linearGradient>
         </defs>
-        <title>{title || 'react-surfaces varient 6'}</title>
+        <title>{title || 'react-surfaces variant 6'}</title>
         <rect
           width='100'
           height='100'
-          style={{ fill: 'url(#varient6-gradient1)' }}
+          style={{ fill: 'url(#variant6-gradient1)' }}
         />
         <path
           d='M99.49,0C57.34,77.23,28.6-3.74,0,13.94V0Z'
